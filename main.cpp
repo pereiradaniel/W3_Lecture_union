@@ -11,4 +11,9 @@ union ID
 int main()
 {
 	ID theId;			// 20 bytes
+	theId.m_iId = 123456789;
+	cout << theId.m_strId << "\n";
+
+	theId.m_strId[0] = 'A';
+	theId.m_strId[1] = '\0';
 }
