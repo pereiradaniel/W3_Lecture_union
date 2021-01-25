@@ -4,7 +4,7 @@ using namespace std;
 
 union ID
 {
-	string m_strId;
+	char m_strId[20];
 	long long m_iId;
 };
 
