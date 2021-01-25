@@ -10,7 +10,7 @@ union ID
 
 int main()
 {
-	ID theId;			// 20 bytes
+	ID theId = nullptr;	// 20 bytes
 	theId.m_iId = 123456789;
 	cout << theId.m_strId << "\n";
 
